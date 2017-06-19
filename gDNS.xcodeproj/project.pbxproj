@@ -15,6 +15,12 @@
 		BFB844401EF778E600728986 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB8443F1EF778E600728986 /* StatusMenuController.swift */; };
 		BFB844411EF778E600728986 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB8443F1EF778E600728986 /* StatusMenuController.swift */; };
 		BFB844421EF778E600728986 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB8443F1EF778E600728986 /* StatusMenuController.swift */; };
+		DAC32FEC1EF83E3A00360CB9 /* gDNS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC32FEB1EF83E3A00360CB9 /* gDNS.swift */; };
+		DAC32FED1EF83E3A00360CB9 /* gDNS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC32FEB1EF83E3A00360CB9 /* gDNS.swift */; };
+		DAC32FEF1EF855A000360CB9 /* gDNSController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC32FEE1EF855A000360CB9 /* gDNSController.swift */; };
+		DAC32FF01EF855A000360CB9 /* gDNSController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC32FEE1EF855A000360CB9 /* gDNSController.swift */; };
+		DAC32FF21EF85D1900360CB9 /* PreferencesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC32FF11EF85D1900360CB9 /* PreferencesController.swift */; };
+		DAC32FF31EF85D1900360CB9 /* PreferencesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC32FF11EF85D1900360CB9 /* PreferencesController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,9 @@
 		BFB844311EF7784B00728986 /* gDNSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gDNSUITests.swift; sourceTree = "<group>"; };
 		BFB844331EF7784B00728986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFB8443F1EF778E600728986 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		DAC32FEB1EF83E3A00360CB9 /* gDNS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gDNS.swift; sourceTree = "<group>"; };
+		DAC32FEE1EF855A000360CB9 /* gDNSController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gDNSController.swift; sourceTree = "<group>"; };
+		DAC32FF11EF85D1900360CB9 /* PreferencesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +111,9 @@
 				BFB8441A1EF7784B00728986 /* Main.storyboard */,
 				BFB8441D1EF7784B00728986 /* Info.plist */,
 				BFB8443F1EF778E600728986 /* StatusMenuController.swift */,
+				DAC32FEB1EF83E3A00360CB9 /* gDNS.swift */,
+				DAC32FEE1EF855A000360CB9 /* gDNSController.swift */,
+				DAC32FF11EF85D1900360CB9 /* PreferencesController.swift */,
 			);
 			path = gDNS;
 			sourceTree = "<group>";
@@ -260,8 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAC32FEC1EF83E3A00360CB9 /* gDNS.swift in Sources */,
+				DAC32FF21EF85D1900360CB9 /* PreferencesController.swift in Sources */,
 				BFB844401EF778E600728986 /* StatusMenuController.swift in Sources */,
 				BFB844151EF7784B00728986 /* AppDelegate.swift in Sources */,
+				DAC32FEF1EF855A000360CB9 /* gDNSController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,8 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAC32FED1EF83E3A00360CB9 /* gDNS.swift in Sources */,
+				DAC32FF31EF85D1900360CB9 /* PreferencesController.swift in Sources */,
 				BFB844411EF778E600728986 /* StatusMenuController.swift in Sources */,
 				BFB844271EF7784B00728986 /* gDNSTests.swift in Sources */,
+				DAC32FF01EF855A000360CB9 /* gDNSController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +529,7 @@
 				BFB844381EF7784B00728986 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFB844391EF7784B00728986 /* Build configuration list for PBXNativeTarget "gDNSTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +538,7 @@
 				BFB8443B1EF7784B00728986 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFB8443C1EF7784B00728986 /* Build configuration list for PBXNativeTarget "gDNSUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +547,7 @@
 				BFB8443E1EF7784B00728986 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
