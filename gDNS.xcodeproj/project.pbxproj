@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		BFB844151EF7784B00728986 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB844141EF7784B00728986 /* AppDelegate.swift */; };
-		BFB844171EF7784B00728986 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB844161EF7784B00728986 /* ViewController.swift */; };
 		BFB844191EF7784B00728986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB844181EF7784B00728986 /* Assets.xcassets */; };
 		BFB8441C1EF7784B00728986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB8441A1EF7784B00728986 /* Main.storyboard */; };
 		BFB844271EF7784B00728986 /* gDNSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB844261EF7784B00728986 /* gDNSTests.swift */; };
 		BFB844321EF7784B00728986 /* gDNSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB844311EF7784B00728986 /* gDNSUITests.swift */; };
+		BFB844401EF778E600728986 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB8443F1EF778E600728986 /* StatusMenuController.swift */; };
+		BFB844411EF778E600728986 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB8443F1EF778E600728986 /* StatusMenuController.swift */; };
+		BFB844421EF778E600728986 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB8443F1EF778E600728986 /* StatusMenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +37,6 @@
 /* Begin PBXFileReference section */
 		BFB844111EF7784B00728986 /* gDNS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gDNS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB844141EF7784B00728986 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFB844161EF7784B00728986 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BFB844181EF7784B00728986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFB8441B1EF7784B00728986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFB8441D1EF7784B00728986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		BFB8442D1EF7784B00728986 /* gDNSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gDNSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB844311EF7784B00728986 /* gDNSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gDNSUITests.swift; sourceTree = "<group>"; };
 		BFB844331EF7784B00728986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB8443F1EF778E600728986 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +98,10 @@
 			isa = PBXGroup;
 			children = (
 				BFB844141EF7784B00728986 /* AppDelegate.swift */,
-				BFB844161EF7784B00728986 /* ViewController.swift */,
 				BFB844181EF7784B00728986 /* Assets.xcassets */,
 				BFB8441A1EF7784B00728986 /* Main.storyboard */,
 				BFB8441D1EF7784B00728986 /* Info.plist */,
+				BFB8443F1EF778E600728986 /* StatusMenuController.swift */,
 			);
 			path = gDNS;
 			sourceTree = "<group>";
@@ -258,7 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB844171EF7784B00728986 /* ViewController.swift in Sources */,
+				BFB844401EF778E600728986 /* StatusMenuController.swift in Sources */,
 				BFB844151EF7784B00728986 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB844411EF778E600728986 /* StatusMenuController.swift in Sources */,
 				BFB844271EF7784B00728986 /* gDNSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB844421EF778E600728986 /* StatusMenuController.swift in Sources */,
 				BFB844321EF7784B00728986 /* gDNSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
